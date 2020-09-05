@@ -25,14 +25,70 @@ Secondary.args = {
     label: 'Button',
 };
 
+export const Small = Template.bind({});
+Small.args = {
+    size: 'small',
+    label: 'Button',
+};
+
 export const Large = Template.bind({});
 Large.args = {
     size: 'large',
     label: 'Button',
 };
 
-export const Small = Template.bind({});
-Small.args = {
-    size: 'small',
+export const Extra = Template.bind({});
+Extra.args = {
+    size: 'extra',
     label: 'Button',
 };
+
+export const RectanglePrimary = Template.bind({});
+RectanglePrimary.args = {
+    primary: true,
+    label: 'Button',
+    borderRadius: '0em',
+};
+
+export const RectangleSecondary = Template.bind({});
+RectangleSecondary.args = {
+    label: 'Button',
+    borderRadius: '0em',
+};
+
+export const RectangleSmall = Template.bind({});
+RectangleSmall.args = {
+    label: 'Button',
+    borderRadius: '0em',
+    size: 'small',
+};
+
+export const RectangleLarge = Template.bind({});
+RectangleLarge.args = {
+    label: 'Button',
+    borderRadius: '0em',
+    size: 'large',
+};
+
+export const RectangleExtra = Template.bind({});
+RectangleExtra.args = {
+    label: 'Button',
+    borderRadius: '0em',
+    size: 'extra',
+};
+
+export const TransparentButton = Template.bind({});
+TransparentButton.args = {
+    label: 'Button',
+    backgroundColor: 'transparent',
+};
+
+export const LabelButton = Template.bind({});
+LabelButton.args = {
+    label: 'Button',
+    borderRadius: '0em',
+    backgroundColor: 'transparent',
+    boxShadow: 'none',
+};
+
+
