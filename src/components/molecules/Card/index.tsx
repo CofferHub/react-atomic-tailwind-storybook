@@ -1,17 +1,19 @@
-import React from "react";
-import './style.css'
+import React from 'react';
+import './style.css';
 
 export interface CardProps {
-	backgroundColor?: string;
+	rootClassName?: 'string',
+	children: React.ReactNode
 }
 
-export const Card: React.FC<CardProps> = ({...props}) => {
+export const Card: React.FC<CardProps> = ({rootClassName, children, ...props}) => {
+
 	return (
-		<div>
-			<p 
-			className="font-bold text-6xl to-blue-500"
+		<div
+			className={[`border border-solid border-gray-400 p-4 rounded shadow-sm `, rootClassName].join(' ')}
 			{...props}
-			> oi world</p>
+		>
+			{children}
 		</div>
 	);
 };
