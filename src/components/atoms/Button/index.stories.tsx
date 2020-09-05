@@ -43,18 +43,52 @@ Extra.args = {
     label: 'Button',
 };
 
-export const RadiusPrimary = Template.bind({});
-RadiusPrimary.args = {
+export const RectanglePrimary = Template.bind({});
+RectanglePrimary.args = {
     primary: true,
     label: 'Button',
     borderRadius: '0em',
 };
 
+export const RectangleSecondary = Template.bind({});
+RectangleSecondary.args = {
+    label: 'Button',
+    borderRadius: '0em',
+};
+
+export const RectangleSmall = Template.bind({});
+RectangleSmall.args = {
+    label: 'Button',
+    borderRadius: '0em',
+    size: 'small',
+};
+
+export const RectangleLarge = Template.bind({});
+RectangleLarge.args = {
+    label: 'Button',
+    borderRadius: '0em',
+    size: 'large',
+};
+
+export const RectangleExtra = Template.bind({});
+RectangleExtra.args = {
+    label: 'Button',
+    borderRadius: '0em',
+    size: 'extra',
+};
+
 export const TransparentButton = Template.bind({});
 TransparentButton.args = {
     label: 'Button',
+    backgroundColor: 'transparent',
+};
+
+export const LabelButton = Template.bind({});
+LabelButton.args = {
+    label: 'Button',
     borderRadius: '0em',
     backgroundColor: 'transparent',
+    boxShadow: 'none',
 };
 
 

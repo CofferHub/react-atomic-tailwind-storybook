@@ -11,9 +11,14 @@ export interface ButtonProps {
      */
     backgroundColor?: string;
     /**
-     * What radius it should
+     * What radius it should be
      */
     borderRadius?: string;
+    /**
+    /**
+     * It has box-shadow?
+     */
+    boxShadow?: string;
     /**
      * How large should the button be?
      */
@@ -26,6 +31,7 @@ export interface ButtonProps {
      * Optional click handler
      */
     onClick?: () => void;
+
 }
 
 /**
@@ -37,6 +43,7 @@ export const Button: React.FC<ButtonProps> = ({
     backgroundColor,
     borderRadius,
     label,
+    boxShadow,
     ...props
 }) => {
     const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
@@ -44,7 +51,7 @@ export const Button: React.FC<ButtonProps> = ({
         <button
             type="button"
             className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-            style={{ backgroundColor, borderRadius }}
+            style={{ backgroundColor, borderRadius, boxShadow, outline: 'none' }}
             {...props}
         >
             {label}
