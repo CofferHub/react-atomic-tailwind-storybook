@@ -5,7 +5,7 @@ import { Story, Meta } from "@storybook/react/types-6-0";
 import { Card, CardProps } from "./index";
 
 export default {
-	title: "Molecules/Layout/Card",
+	title: "Molecules/Cards",
 	component: Card,
 } as Meta;
 
