@@ -1,10 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ![Header image](https://i.ibb.co/t3jDLfx/frame1.png)
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+This is a storybook components library based on Tailwind. The main idea of this repo is to be a custom components backup idealize to be short and simple and integrate with your react app.
+We based the design structure in Atomic Design, which has an more condensed way to organize components. But we are not here to explain what Atomic Design is, but how it can improve the way you work with components.
+
+## Structure
+
+Here it will be the project structure ilustration and how it can be worked. 
+
 
 ### `yarn start`
 
