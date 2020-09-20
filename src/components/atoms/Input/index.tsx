@@ -7,13 +7,17 @@ export interface InputProps {
 	 */
 	placeholder?: string;
 	/**
+	 * What tailwind class should it be?
+	 */
+	tailwindClass?: string;
+	/**
 	 * What type should it be?
 	 */
-	type?: string;
+	type?: 'text' | 'email' | 'submit' | 'number' | 'password' | 'tel';
 }
 
-export const Input: React.FC<InputProps> = ({ placeholder = 'Type something', type = 'text', ...props }) => {
+export const Input: React.FC<InputProps> = ({ placeholder = 'Type something', type = 'text', tailwindClass, ...props }) => {
 	return (
-		<input type={type} placeholder={placeholder} {...props} className="outline-none p-2 border border-gray-900 rounded-sm" />
+		<input type={type} placeholder={placeholder} {...props} className={["outline-none p-2 border border-gray-900 rounded-sm", `${tailwindClass}`].join(' ')} />
 	);
 };
