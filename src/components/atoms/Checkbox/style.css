@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:checked + svg {
+    display: block;
+    transition: .2s ease;
+}
