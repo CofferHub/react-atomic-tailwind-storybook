@@ -13,7 +13,7 @@ export interface InputProps {
 	/**
 	 * What type should it be?
 	 */
-	type?: 'text' | 'email' | 'submit' | 'number' | 'password' | 'tel';
+	type?: 'text' | 'email' | 'number' | 'password' | 'tel' | 'url' | 'hidden' | 'search';
 }
 
 export const Input: React.FC<InputProps> = ({ placeholder = 'Type something', type = 'text', tailwindClass, ...props }) => {
