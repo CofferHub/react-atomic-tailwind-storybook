@@ -21,6 +21,84 @@ We based the design structure in Atomic Design, which has an more condensed way 
 This is where comes the illustrations
 
 ## Structure
+Árvore de arquivos :
+```
+├── .storybook
+├── docs
+│   ├── contributing.md
+│   ├── issue_templates.md
+│   └── pull_requeste_template.md
+├── public
+├── src
+│   ├── assets
+│   │   ├── img
+│   │   │   └── index.ts
+│   │   ├── svg
+│   │   │   └── index.ts
+│   ├── components
+│   │   ├── atoms
+│   │   │   ├── Button
+│   │   │   │   ├── button.css
+│   │   │   │   ├── index.stories.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── styles.ts
+│   │   │   ├── Checkbox
+│   │   │   │   ├── index.stories.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── styles.css
+│   │   │   ├── Input
+│   │   │   │   ├── index.stories.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── styles.css
+│   │   │   └── Text
+│   │   │   │   ├── index.stories.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── styles.ts
+│   │   │   └── index.export.ts
+│   │   ├── documentation
+│   │   │   ├── assets
+│   │   │   └── Introduction.stories.mdx
+│   │   ├── molecules
+│   │   │   ├── Card
+│   │   │   │   ├── index.stories.tsx
+│   │   │   │   ├── index.tsx
+│   │   │   │   └── styles.css
+│   │   │   ├── Header
+│   │   │   │   ├── header.css
+│   │   │   │   ├── Header.stories.tsx
+│   │   │   │   └── Header.tsx
+│   │   │   └── index.ts
+│   │   ├── organisms
+│   │   │   ├── PageStatic
+│   │   │   │   ├── page.css
+│   │   │   │   ├── Page.stories.tsx
+│   │   │   │   └── Page.tsx
+│   │   │   └── index.ts
+│   │   └── templates
+│   │   │   └── index.ts
+│   ├── util
+│   │   └── color.ts
+│   ├── App.css
+│   ├── App.test.tsx
+│   ├── App.tsx
+│   ├── index.css
+│   ├── index.tsx
+│   ├── logo.svg
+│   ├── react-app-env.d.ts
+│   ├── serviceWorker.ts
+│   └── setupTests.ts
+├── .gitignore
+├── CODE_OF_CONDUCT.md
+├── craco.config.js
+├── LICENSE
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+├── tsconfig.json
+└──  yarn.lock
+
+```
 
 Here it will be the project structure ilustration and how it can be worked. 
 	
