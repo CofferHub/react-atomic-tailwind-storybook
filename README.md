@@ -20,6 +20,13 @@ We based the design structure in Atomic Design, which has an more condensed way 
 
 This is where comes the illustrations
 
+## Contributing
+
+Do you want to contribute with us?
+Check this rules how to help us :)
+
+- [How to Contribute?](https://github.com/CofferHub/react-atomic-tailwind-storybook/blob/master/docs/contributing.md)
+
 ## Structure
 ```
 ├── .storybook
