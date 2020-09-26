@@ -68,13 +68,11 @@ Project is created with:
 To run this project, install it locally using npm:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ yarn install
+$ yarn storybook
 ```
+
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can learn more in the [Our wiki project progress](https://github.com/Dheyson/react-atomic-tailwind-storybook/wiki/How-did-we-get-here%3F).
