@@ -32,7 +32,7 @@ We actively welcome your pull requests:
 In short, when you submit code changes, your submissions are understood to be under the same [MIT License](https://github.com/Dheyson/react-atomic-tailwind-storybook/blob/master/LICENSE) that covers the project. Feel free to contact the maintainers if that's a concern.
 
 ## Report bugs using Github's [issues](https://github.com/Dheyson/react-atomic-tailwind-storybook/issues)
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](); it's that easy!
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/CofferHub/react-atomic-tailwind-storybook/issues/new/choose); it's that easy!
 
 ## Use a Consistent Coding Style
 
