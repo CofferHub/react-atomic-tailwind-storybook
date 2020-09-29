@@ -72,13 +72,19 @@ Project is created with:
 * [TypeScript](https://www.typescriptlang.org/) version: 3.7
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this project, install it locally using YARN:
 
 ```
-$ yarn install
+$ yarn install or yarn
 $ yarn storybook
 ```
 
+or NPM:
+
+```
+$ npm install or npm i
+$ npm run storybook
+```
 
 ## Learn More
 
