@@ -44,7 +44,6 @@ export const Text: React.FC<TextProps> = ({
           color: color,
           fontWeight: weight,
           fontFamily: family,
-          textTransform: transform,
         }}
         {...props}
       >
