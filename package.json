@@ -21,9 +21,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:watch": "yarn test --watch",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "generate": "yarn plop --plopfile generators/plopfile.js",
+    "lint": "eslint src --max-warnings=0"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -49,6 +52,8 @@
     "@storybook/preset-create-react-app": "^3.1.4",
     "@storybook/react": "^6.0.21",
     "babel-loader": "^8.1.0",
+    "jest-styled-components": "^7.0.3",
+    "plop": "^2.7.4",
     "postcss-preset-env": "^6.7.0",
     "react-is": "^16.13.1",
     "tailwindcss": "^1.7.6"
