@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-export interface InputProps {
+export interface TextInputProps {
 	/**
 	 * What placeholder should it be?
 	 */
@@ -16,7 +16,7 @@ export interface InputProps {
 	type?: 'text' | 'email' | 'number' | 'password' | 'tel' | 'url' | 'hidden' | 'search';
 }
 
-export const Input: React.FC<InputProps> = ({ placeholder = 'Type something', type = 'text', tailwindClass, ...props }) => {
+export const TextInput: React.FC<TextInputProps> = ({ placeholder = 'Type something', type = 'text', tailwindClass, ...props }) => {
 	return (
 		<input type={type} placeholder={placeholder} {...props} className={["outline-none p-2 border border-gray-900 rounded-sm", `${tailwindClass}`].join(' ')} />
 	);
